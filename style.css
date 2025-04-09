@@ -3,18 +3,58 @@
     margin: 0px;
     padding: 0px;
 }
-
 nav{
-    display:flex
-    justify-content:space-between
-    align-items:center
+display: flex;
+align-items: center;
+justify-content: space-between;
+background-color: #f2efee;
 }
-.mac{
-align-items: end;
-}
+  ul{
+    display: flex;
+    list-style: none;
     
+  }
+  ul a{
+    color: black;
+    text-decoration: none;
+  }
+  ul li{
+    width: 100px;
+    align-items: end;
+    justify-content: right;
+  }
+article{
+    display: flex;
+}
+
+
+#blanche{
+display: flex;
+}
+
+
+    
+header{
+    width: 100%;
+}
+
+#photoHeader{
+    width: 50%;
+}
+
+#sectionHeader{
+    width: 100%;
+    display: flex;
+
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color:#46352A
+}
 
 
 
 
-
+  

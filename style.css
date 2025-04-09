@@ -55,6 +55,15 @@ header{
 }
 
 
-
+#card{
+  
+    gap: 10%;
+    display: flex
+;
+    justify-content: center;
+}
+.eco{
+  border: solid;
+}
 
   

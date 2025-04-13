@@ -58,12 +58,116 @@ header{
 #card{
   
     gap: 10%;
+    display: flex;
+    gap: 10%;
     display: flex
 ;
     justify-content: center;
+    align-items: center;
+    text-align: center;
+  padding: 41px;
 }
 .eco{
   border: solid;
+  width: 246px;
+  height: 204px;
+
+}
+p{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+  #parfum{
+    align-items: center;
+    height: 103px;
+    display: flex
+;
+    background-color:#46352A;
+    justify-content: center;
+margin: 45px;
+  }
+  .good{
+    
+    /*height:355px;*/
+    width: 345px;
+    padding: 40px;
+    margin: 50px auto;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 10PX 10PX 10PX 10PX grey
+    img:first-of-type{
+        height 140PX;
+        border: radius 20px;;
+        border:1px gray
+    }    display: flex
+    ;
+        justify-content: center;
+    
+
+
+
+}
+input{
+    border-radius: 5PX;
+    border: 1PX solid black;
+    padding: 5PX;
+    margin: 5PX;
 }
 
+input[type="submit"]{
+    background-color: black;
+    color: white;
+}
   
+.prix{
+  border: solid brown;
+    width: 288px;
+    height: 330px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+form{
+  border:solid brown;
+  display: grid
+;
+  justify-content: center;
+  text-align: center;
+  width: 408px;
+  justify-content: space-around;
+  padding: 20px;
+  border-radius: 20px;
+}
+.sucre{
+  display: flex
+;
+    justify-content: center;
+}
+footer{
+  
+  display: flex
+  ;
+      justify-content: center;
+      margin: 52px;
+      background-color:#46352A;
+  
+}
+.mini{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  background-color: #f9f9f9;
+}
+button{
+  background-color: cornsilk;
+  border-radius: 6px;
+}
+.cardImg{
+  border-radius: 8px;
+}
+h4{
+  text-align: center;
+}
